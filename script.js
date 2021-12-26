@@ -1,67 +1,6 @@
 console.log("Hello World!")
 
-/* function mathRandom(numb) { return Math.floor(Math.random() * numb) }
 
-    function computerPlay() {
-    let mathRand = mathRandom(3)
-    function mathRando() {return mathRand}
-    console.log(mathRand)
-    if (mathRand == "0") {return "Rock"}
-    else if (mathRand == "1") {return "Paper"}
-    else if (mathRand == "2") {return "Scissors"}
-}
-
-const win = "You Win!"
-const lose = "You Lose :("
-const draw = "Draw."
-
-computerSelection = computerPlay()
-playerSelection = prompt('GO!', "Rock, Paper or Scissors")
-function alerting(something) {alert(something)}
-
-
-function playRound(playerSelection, computerSelection)
-{ 
-    
-    //ROCK
-if (playerSelection.toLowerCase() == "rock") { 
-    if (computerSelection === "Rock") {alert (draw)}
-else if (computerSelection === "Paper") {alert (lose)}
-else if (computerSelection === "Scissors") {alert (win)}
-}
-
-//PAPER
-else if (playerSelection.toLowerCase() == "paper") {
-    if (computerSelection === "Rock") {alert (win)}
-else if (computerSelection === "Paper") {alert (draw)}
-else if (computerSelection === "Scissors") {alert (lose)}
-} 
-
-//SCISSORS
-else if (playerSelection.toLowerCase() == "scissors") { 
-if (computerSelection === "Rock") {alert (lose)}
-else if (computerSelection === "Paper") {alert (win)}
-else if (computerSelection === "Scissors") {alert (draw)}
-}
-
-}
-
-function game() {playerSelection
-playRound(playerSelection, computerSelection)}
-for (i = 0; i < 5; i++) {
-playerSelection}
-
-
-/* function game() {
-    let playerSelection = prompt('Round 1', 'Rock, Paper or Scissors')
-    playRound(playerSelection, computerSelection)
-    playRound(playerSelection, computerSelection)
-    playRound(playerSelection, computerSelection)
-    playRound(playerSelection, computerSelection)
-    playRound(playerSelection, computerSelection)
-}
-game()
-console.log(roundNumber(1)) */
 
 let playerChoice = confirm('Do you wanna play Rock, Paper, Scissors?')
 
